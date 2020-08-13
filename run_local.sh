@@ -21,5 +21,6 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
   --gae-lambda 0.95 \
   --log-dir logs \
   --num-env-steps 1000000 \
+  --disc-train 5 \
   --use-linear-lr-decay \
   --use-proper-time-limits
