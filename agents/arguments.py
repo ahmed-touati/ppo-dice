@@ -187,7 +187,7 @@ def get_args():
         default=False,
         help='use gradient penalty for discriminator and policy')
     parser.add_argument(
-        '--disc_train',
+        '--disc-train',
         type=int,
         default=1,
         help='number of training iteration of the discriminator (default: 1)')
